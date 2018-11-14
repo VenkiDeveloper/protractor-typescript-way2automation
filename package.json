@@ -1,0 +1,23 @@
+{
+  "name": "protractor-typescript-way2automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "temp/config.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "protractor temp/config.js --suite"
+  },
+  "dependencies": {
+    "protractor": "./node_modules/protractor"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.11",
+    "@types/node": "^10.12.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.1",
+    "typescript": "^3.1.6"
+  }
+}
