@@ -8,7 +8,7 @@
     "test": "protractor temp/config.js --suite"
   },
   "dependencies": {
-    "protractor": "./node_modules/protractor"
+    "protractor": "^5.4.1"
   },
   "keywords": [],
   "author": "",
