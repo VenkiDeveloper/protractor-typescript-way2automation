@@ -11,7 +11,7 @@ export let config: Config = {
         checkboxes: '../temp/specs/checkboxes/checkboxSpec.js'
     },
     capabilities: {
-        browserName: 'chrome'
+        browserName: 'firefox'
     },
     jasmineNodeOpts: {
         defaultTimeoutInterval: 30000,
